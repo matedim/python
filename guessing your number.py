@@ -1,5 +1,6 @@
 import math
 import random
+base=list()
 count=input("Enter the range of guessing, ")
 count=int(count)
 next=count
@@ -18,9 +19,11 @@ while otvet!=3:
             step+=1
             next-=1
         else:continue
+        base.append(count)
         print("Hmmm .... this number is", int(count),"?")
         i+=1
     except:
         print("Make the right choice")
         continue
 print('I m guessing your number for',i,'attempts! :-)' )
+print(base)
