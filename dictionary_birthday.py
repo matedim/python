@@ -1,5 +1,5 @@
-birthday={"РќРѕРІС‹Р№ Р“РѕРґ":"01.01.2016","Р¤РµРґРѕСЂРёС€РёРЅ":"09.06.2016"}
-#print (geek['404'],'\n',geek['Link Rot'])
+birthday={"Новый Год:"01.01.2016","Р}ФедоришинЭ
+print (geek['404'],'\n',geek['Link Rot'])
 #print(geek.get('Dancing Baloney','Error'))
 choice=None
 while choice!="0":
